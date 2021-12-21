@@ -1,0 +1,207 @@
+	body {
+		margin:0;
+		background-color: #ADA8B6;
+	}
+	header {
+		color: white;
+		text-align:center;
+		background-color: #3A405A;
+		font-family: 'Oswald', sans-serif;
+		
+		margin-top: 0;
+		border: 1px solid #3A405A;	
+	}
+	#FirstButton {
+		float: left;
+		background-color: #3A405A;
+		width: 33%;
+	}
+	#ClickedFirstButton {
+		float: left;
+		background-color:#1d1e2c;
+		width: 33%;
+	}
+	#SecondButton {
+		float: left;
+		background-color:#3A405A;
+		width: 34%;
+	}
+	#ClickedSecondButton {
+		float: left;
+		background-color:#1d1e2c;
+		width: 34%;
+	}
+	#ThirdButton {
+		float: right;
+		background-color:#3A405A;
+	
+		width: 33%;
+	}
+	#ClickedThirdButton {
+		float: right;
+		background-color:#1d1e2c;
+	
+		width: 33%;
+	}
+	nav h2{
+		color: white;
+		text-align: center;
+		font-family: 'Roboto Slab', serif;
+		height: 50px;
+		
+		padding-top:7px;
+		padding-bottom: 7px;
+		margin: 0px;
+		box-sizing: border-box;
+		border: 1px solid black;
+	}
+	#Content{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#ImageTop{
+		max-width: 50%;
+		height: auto;
+	}
+	
+	div.DescriptionContainer{
+		width: 50%;
+		padding-top: 23.1%;
+		position: relative;
+		float: right;	
+		background-color: #CECFC7;
+	}	
+	#DescriptionText{
+		color: black;
+		float:right;	
+		font-size:25px;
+		
+		font-family: 'Open Sans', sans-serif;
+		box-sizing: border-box;
+		font-size: 2vw;
+		
+		position: absolute;
+		top: 5px;
+		left: 10px;
+		bottom: 45px;
+		right: 10px;
+	}
+	#Lessons{
+		float: left;
+		
+		width: 70%;
+		height: 300px;	
+		border: 3px solid black;
+		background-color: #E99BAC;
+		box-sizing: border-box;
+	}
+	.ContentTitle{
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+	}
+	.ContentDescription{
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.LessonsImage{
+		width: 30%;
+		height: 300px;
+		margin: 0px;
+		box-sizing: border-box;
+	}
+	#Exercises{
+		float: right;
+		
+		width: 70%;
+		height: 300px;	
+		border: 3px solid black;
+		background-color: #B7CDB6;
+		box-sizing: border-box;
+	}
+	#Exercises > p{text-align: center; font-family: 'Open Sans', sans-serif;}
+	#Lessons > p{text-align: center; font-family: 'Open Sans', sans-serif;}
+	#AboutSection{
+		width: 100%
+		height: 300px;
+		background-color:#1d1e2c;
+		border: 3px solid black;
+	}
+	.Table{
+		border: 3px solid black;
+		margin:auto;
+	}
+	tr > td.Description{
+		border: 2px solid black;
+		font-family: 'Open Sans', sans-serif;
+		font-size: clamp(9.2px, 1.2vw, 14px);
+		box-sizing: border-box;
+		width: 400px;
+	}
+	tr > td.tableTitle{
+		border: 2px solid black;
+		font-family: 'Open Sans', sans-serif;
+		font-size: clamp(9.2px, 1.2vw, 14px);
+		box-sizing: border-box;
+		width: 230px;
+	}
+	tr > td.Link{
+		border: 2px solid black;
+		font-family: 'Open Sans', sans-serif;
+		font-size: clamp(9.2px, 1.2vw, 14px);
+		box-sizing: border-box;
+		width: 230px;
+	}
+	.About{
+		color:white;
+		position:relative;
+	}
+	#AboutSection > h1{
+		text-align:center;
+		font-family: 'Roboto Slab', serif;
+	}
+	#AboutSection > h2{
+		left:10px;
+		font-family: 'Oswald', sans-serif;
+	}
+	#AboutSection > p{
+		left:20px;
+		text-align:left;
+		font-family: 'Open Sans', sans-serif;
+		width:90%;
+	}
+	.LessonTitle{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 90px;
+		font-family: 'Oswald', sans-serif;
+	}
+	.LessonContent{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		font-family: 'Open Sans', sans-serif;
+		background-color: #E99BAC;
+	}
+	#LessonContentBox{
+		background-color:#E99BAC;
+		height: 80px;
+		width: 100%;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	#NextLessonBox{
+		background-color:#E99BAC;
+		height: 40px;
+		width: 100%;
+		margin-top: auto;
+		margin-bottom: auto;
+		text-align: center;
+	}
+	#Powerpoint {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		height: 100%;
+	}
